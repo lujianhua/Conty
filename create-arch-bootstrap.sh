@@ -47,6 +47,8 @@ export packagelist="${audio_pkgs} ${video_pkgs} ${wine_pkgs} ${devel_pkgs} \
 	libretro-parallel-n64 libretro-pcsx2 libretro-picodrive libretro-ppsspp \
 	libretro-retrodream libretro-yabause sunshine nautilus"
 
+export packagelist="${packagelist} mono nuget"
+
 # If you want to install AUR packages, specify them in this variable
 export aur_packagelist=""
 
